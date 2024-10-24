@@ -8,10 +8,7 @@ function onSubmit() {
 
   console.log(email, pass);
 
-if(pass.length<8){
-    alert('Password should be atleast 8 character')
-    return
-}
+
 
 
   if (!email || !pass) {
@@ -19,6 +16,11 @@ if(pass.length<8){
 
     return;
   }
+
+  if(pass.length<8){
+    alert('Password should be atleast 8 character')
+    return
+}
   var isValid = email.indexOf("@gmail.com");
   // console.log(isValid)
 
