@@ -19,10 +19,13 @@
         <p>Login With Password</p>
         <!-- <form class="login"> -->
             <div class="login">
-            <input id="email" type="email" type="text" placeholder="email address or phone number"><br>
-            <input id="pass" id="pass" type="password" placeholder="password">
-         
-                <button onclick="onSubmit()" type="submit">Login</button>
+            <input  id="email" type="email" type="text" placeholder="email address or phone number"><br>
+            <div class="password">
+            <input id="password"  type="password" placeholder="password">
+           <img id="img" onclick="passShow()" src="images/visibility_off_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" width="20px" height="20px" alt="">
+            
+        </div>
+                <button id="btn" onclick="onSubmit()" type="submit">Login</button>
             </div>
         <!-- </form> -->
     </div>

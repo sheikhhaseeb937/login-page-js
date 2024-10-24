@@ -286,8 +286,9 @@ font-weight: 800;
     display: flex;
    align-items: center;
     flex-direction: column;
+
 }
-.login input{
+#email{
     width: 80%;
     height: 50px;
     border:1px solid black;
@@ -308,3 +309,39 @@ font-weight: 800;
     color: white;
     font-size: 20px;
  }
+ .password{
+    display: flex;
+    
+border: 1px solid black;
+align-items: center;
+justify-content: space-between;
+border-radius: 5px;
+    
+ }
+ .password input{
+  border: none;
+  width: 540px;
+ 
+    height: 50px;
+    position: relative;
+ }
+ .password img{
+
+position: absolute;
+margin-left: 500px;
+
+
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+   
