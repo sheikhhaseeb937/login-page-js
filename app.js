@@ -17,7 +17,11 @@ function onSubmit() {
     return;
   }
 
-  if(pass.length<8){
+//   if(pass.length<8){
+//     alert('Password should be atleast 8 character')
+//     return
+// }
+if(pass.length <=8){
     alert('Password should be atleast 8 character')
     return
 }
